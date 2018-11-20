@@ -11,7 +11,7 @@ include Rack::Test::Methods
     assert_equal 'Hello, world!', last_response.body
   end
   def test_with_params
-    get '/Frankies'
+    get '/Frank'
     assert_equal 'Hello, Frank!', last_response.body
   end
 #end
